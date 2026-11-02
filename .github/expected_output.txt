@@ -1,0 +1,59 @@
+=== CSCI 1260 DATA STRUCTURES LAB ===
+
+Part A: array tools
+  Start:                10 20 30 40 50
+  InsertAt(1, 15):      10 15 20 30 40 50
+  IndexOf(40):          4
+  IndexOf(99):          -1
+  RemoveAt(0):          15 20 30 40 50
+  RemoveAt(4):          15 20 30 40
+  Slots in use:         4 of 8
+
+Part B: MyList
+  After 9 adds:         Count 9, Capacity 16
+  After inserts:        [A, B, C, D, E]
+  Count, Capacity:      5, 8
+  RemoveAt(0):          [B, C, D, E]
+  Set [1] to Z:         [B, Z, D, E]
+  IndexOf("D"):         2
+  IndexOf("Q"):         -1
+  letters[4]:           refused
+
+Part C: MyStack
+  Peek:                 C
+  Pop three times:      C B A
+  IsEmpty:              True
+  Pop when empty:       refused
+  Brackets:
+    Console.WriteLine(list[0]);   True
+    { [ ( ) ] }                   True
+    ( [ ) ]                       False
+    ( ( )                         False
+    ( ) )                         False
+
+Part D: MyQueue
+  Dequeue twice:        A B
+  Peek:                 C
+  Count:                5
+  Dequeue all:          C D E F G
+  Dequeue when empty:   refused
+  Office hours, 5 minute turns:
+    Ben done at minute 10
+    Cy done at minute 23
+    Ada done at minute 25
+
+Part E: dictionaries
+  Courses added:        9
+  Add CSCI 1260 again:  False
+  TitleFor(CSCI 1260):  Object Oriented Programming
+  TitleFor(ARTS 1010):  (no such course)
+  Words, most common first:
+    be          2
+    to          2
+    is          1
+    not         1
+    or          1
+    question    1
+    that        1
+    the         1
+  Distinct words:       8
