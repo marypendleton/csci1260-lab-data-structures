@@ -57,3 +57,37 @@ Part E: dictionaries
     that        1
     the         1
   Distinct words:       8
+
+Part F: MyHashTable
+  Count:                5
+  Bucket sizes:         1 2 1 0 1 0 0
+  Find 3305:            Cy
+  Find 9999:            not found
+  Add 2290 again:       refused
+
+Part G: filter and transform
+  Open course codes:    CSCI 1250, CSCI 1260, MATH 1910, MATH 1920, ENGL 1020, HIST 2010, HIST 2020
+  Four credit titles:
+    Introduction to Programming
+    Object Oriented Programming
+    Calculus I
+    Calculus II
+  Seats left:
+    CSCI 1250: 2 seats left
+    CSCI 1260: 2 seats left
+    MATH 1910: 8 seats left
+    MATH 1920: 10 seats left
+    ENGL 1020: 24 seats left
+    HIST 2010: 20 seats left
+    HIST 2020: 36 seats left
+
+Part H: sort, summarize, group
+  Top three:            ENGL 1010 (150), MATH 1910 (112), ENGL 1020 (96)
+  Total enrolled:       703
+  Full courses:         2
+  ByCode[MATH 1910]:    Calculus I
+  Departments:
+    ENGL | courses: 2 | students: 246
+    MATH | courses: 3 | students: 227
+    HIST | courses: 2 | students: 144
+    CSCI | courses: 2 | students: 86
